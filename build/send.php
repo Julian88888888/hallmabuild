@@ -5,11 +5,12 @@ require 'phpmailer/PHPMailer.php';
 require 'phpmailer/Exception.php';
 
 // Переменные, которые отправляет пользователь
-$name = $_POST['name'];
+// $name = $_POST['name'];
+$name ='julian';
 $phone = $_POST['phone'];
-$email = $_POST['email'];
-$message = $_POST['message'];
-$lid = $_POST['lid'];
+$comment = $_POST['message'];
+$policy = $_POST['email'];
+// $lid = $_POST['lid'];
 
 $ip = @$_SERVER['REMOTE_ADDR'];
 //$url = @$_SERVER['HTTP_REFERER'];
@@ -29,10 +30,10 @@ $get_param=htmlspecialchars('?name='.$name.'&phone='.$phone.'&site=bf-dubai.com'
 file_get_contents($albo_url.$get_param); 
 
 $arr = array(
-  'name: '     => $name,
-  'phone: ' => $phone,
-  'email'          => $email,
-  'message: '   => $message,
+  'Имя: '     => $name,
+  'Телефон: ' => $phone,
+  ''          => $comment,
+  'Форма: '   => $lid,
   'IP-адрес:' => $ip
 );
 
@@ -43,14 +44,15 @@ foreach($arr as $key => $value) {
 // Формирование самого письма
 $title = " Hallmark";
 $body = "
-Website form was submitted:<br><br>
-Name: $name<br>
-Phone number: $phone<br>
-Email: $email<br>
-Message: $message<br><br>
+Получено сообщение с сайта:<br><br>
+Имя: $name<br>
+Телефон: $phone<br>
+$comment<br>
+Политика: $policy<br><br>
 
-Form: $lid<br>
-User IP: $ip"; 
+Форма: $lid<br>
+IP-адрес посетителя: $ip<br>
+Время заказа: $time";
 
 // Настройки PHPMailer
 $mail = new PHPMailer\PHPMailer\PHPMailer(true);
@@ -70,11 +72,11 @@ try {
     $mail->Port       = 465;
 	*/
 
-    $mail->setFrom('info@hallmarkhardware.ca'); // Адрес самой почты и имя отправителя
+    $mail->setFrom('order@patriarshie-prudi.ru', 'down-town-dubai.com'); // Адрес самой почты и имя отправителя
 
 
-    // Получатель письма  
-    $mail->addAddress('info@hallmarkhardware.ca');  
+    // Получатель письма
+    $mail->addAddress('888julian888@gmail.com');  // Ещё один, если нужен
 
 
 	// Прикрепление файлов к письму
