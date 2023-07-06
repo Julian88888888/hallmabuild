@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.71e1aaca.css",
-    "main.js": "/static/js/main.09aa4506.js",
+    "main.js": "/static/js/main.8d4ac217.js",
     "static/js/787.f2a425df.chunk.js": "/static/js/787.f2a425df.chunk.js",
+    "static/media/Hallmark_Hardware_Detention_Products_Catalog.pdf": "/static/media/Hallmark_Hardware_Detention_Products_Catalog.314beda1decc8eae3097.pdf",
     "static/media/photo6.jpg": "/static/media/photo6.eadce529036e55da01ea.jpg",
     "static/media/bg.svg": "/static/media/bg.3e3b49ab40c40bfb6a03.svg",
     "static/media/services5.jpg": "/static/media/services5.52f74c94ba9aff08d792.jpg",
@@ -33,12 +34,12 @@
     "static/media/logo1.svg": "/static/media/logo1.4c32cfd9b4f79b4da0e12e0b8c2e2d4a.svg",
     "static/media/logo5.svg": "/static/media/logo5.b43a28b0ba457b325b0b720fcf76e068.svg",
     "static/media/stamp-colored.svg": "/static/media/stamp-colored.7d3f78857a61bcad0846e6c6258a1784.svg",
-    "static/media/logo3.svg": "/static/media/logo3.3f6c01f038ab279678093464787adce8.svg",
     "static/media/logo12.svg": "/static/media/logo12.8978f49f543f580cbc853fddb7d93e9d.svg",
     "static/media/logo8.svg": "/static/media/logo8.8d0d068ee0b649688bf09b90e482ac9b.svg",
     "static/media/image2.webp": "/static/media/image2.9280b5d9a4e4787e1262.webp",
     "static/media/image4.webp": "/static/media/image4.bade76f0cd2b4ad2ef88.webp",
     "static/media/image3.webp": "/static/media/image3.bb36d20ba345e280f7a2.webp",
+    "static/media/logo3.svg": "/static/media/logo3.3f6c01f038ab279678093464787adce8.svg",
     "static/media/products2.webp": "/static/media/products2.a852482cb19b35112114.webp",
     "static/media/logo4.svg": "/static/media/logo4.2d76412140102797e7b5a7a1b4f3ae30.svg",
     "static/media/about1.webp": "/static/media/about1.ea498059f4a2faa5bc7b.webp",
@@ -53,11 +54,11 @@
     "static/media/Close.svg": "/static/media/Close.95a93ffffe97dbaff9c21b3167e9c323.svg",
     "static/media/success.svg": "/static/media/success.3a2e2126d10904e65f244177315ba47b.svg",
     "main.71e1aaca.css.map": "/static/css/main.71e1aaca.css.map",
-    "main.09aa4506.js.map": "/static/js/main.09aa4506.js.map",
+    "main.8d4ac217.js.map": "/static/js/main.8d4ac217.js.map",
     "787.f2a425df.chunk.js.map": "/static/js/787.f2a425df.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.71e1aaca.css",
-    "static/js/main.09aa4506.js"
+    "static/js/main.8d4ac217.js"
   ]
 }
